@@ -41,18 +41,56 @@ Traditional auction processes lack digital flexibility and real-time interaction
 ## ✅ Features
 
 ### 🔐 User Authentication
-<div align="center"> <img src="Assets/display1.png" alt="Login Page" width="800" height="600"/> </div>
-<div align="center"> <img src="Assets/display2.png" alt="Login Page" width="800" height="600"/> </div>
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="Assets/display1.png" alt="Login Page 1" width="600" height="400"/>
+      </td>
+      <td>
+        <img src="Assets/display2.png" alt="Login Page 2" width="600" height="400"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
 - Register/Login with hashed password (bcrypt)
 - JWT-based session management
 - Role-based routing (seller vs bidder)
 
 ### 🛒 Product Listing (Sellers)
-- Post products with image, title, description, and starting price
-- Set auction duration using a live timer
-- Products get listed publicly in real-time
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="Assets/display3.png" alt="" width="600" height="400"/>
+      </td>
+      <td>
+        <img src="Assets/display6.png" alt="" width="600" height="400"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
+   - Post products with image, title, description, and starting price
+   - Set auction duration using a live timer
+   - Products get listed publicly in real-time
 
 ### ⏱️ Live Auction & Real-Time Bidding
+
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="Assets/display4.png" alt="" width="600" height="400"/>
+      </td>
+      <td>
+        <img src="Assets/display5.png" alt="" width="600" height="400"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
 - View products available for bidding
 - Place a bid higher than current bid
 - Timer countdown shown on each card

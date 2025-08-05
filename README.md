@@ -132,13 +132,111 @@ Traditional auction processes lack digital flexibility and real-time interaction
 - setInterval for countdown timers
 - WebSocket / polling (optional if real-time updates enabled)
 
+### 🔹 File & Media:
+- Cloudinary (for image hosting)
+- Gmail API for email notifications
+
+
 ---
 
 ## 🚀 Setup Instructions
 
+## Clone the repo and navigate to the backend folder:
+   ```bash
+   git clone https://github.com/sandipanrakshit34/BidSmart-Full-Stack-Auction-Website
+```
+
+
 ### 🔧 Backend Setup
 
-1. Clone the repo and navigate to the backend folder:
+1. Go to the `backend` folder and open the file `config.env` under the `config` folder.
+
+2. Replace the content with your own credentials:
+
+   ```env
+   PORT = 5000
+
+   CLOUDINARY_CLOUD_NAME = {Your Cloudinary UserName}
+   CLOUDINARY_API_KEY = {Your Cloudinary API Key}
+   CLOUDINARY_API_SECRET = {Your Cloudinary Secret Key}
+
+   FRONTEND_URL = http://localhost:5173
+
+   MONGO_URI = {Your MongoDB URL}
+
+   JWT_SECRET_KEY = {Your JWT Secret Key}
+   JWT_EXPIRE = {Your JWT Secret Key Expiry Date}
+   COOKIE_EXPIRE = 7
+
+   SMTP_HOST = gmail
+   SMTP_PORT = 465
+   SMTP_SERVICE = smtp.gmail.com
+   SMTP_MAIL = {Your SMTP Mail}
+   SMTP_PASSWORD = {Your SMTP Password}
+   ```
+
+   ✅ Replace the placeholders (`{}`) with your own credentials.
+
+3. In the terminal, run the following commands:
+
    ```bash
-   git clone https://github.com/yourusername/auction-site
-   cd auction-site/backend
+   cd backend
+   npm install
+   npm install --save-dev ajv@^7
+   npm run dev
+   ```
+
+   This should start your backend server on **port 5000** (or as specified).
+
+---
+
+### 💻 Frontend Setup
+
+1. Go to the `frontend` folder.
+
+2. Open a **new terminal** and run the following commands:
+
+   ```bash
+   cd frontend
+   npm install
+   npm install --save-dev ajv@^7
+   npm run dev
+   ```
+
+3. Now copy and paste this URL into your browser:
+
+   ```
+   http://localhost:5173/
+   ```
+
+   Your frontend app should now be running!
+
+---
+
+## 📸 Screenshots
+
+| Login Page | Product Listings | Bidding Page |
+|------------|------------------|--------------|
+| ![](Assets/display2.png) | ![](Assets/display3.png) | ![](Assets/display4.png) |
+
+> *(Replace image paths as per your project)*
+
+---
+
+## ✨ Unique Points
+
+- Real-time auction countdown on every product
+- Highest bid updates instantly
+- MongoDB collections and database created automatically
+- Fully responsive modern UI
+- Cloudinary media storage & Gmail-based email system
+- Secure JWT authentication
+- Admin and bidder role separation
+
+---
+
+## 📬 Contact
+
+For setup help, contributions, or inquiries:
+
+📧 Email: sandipanrakshit6@gmail.com

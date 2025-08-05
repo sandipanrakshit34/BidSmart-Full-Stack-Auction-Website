@@ -219,7 +219,7 @@ Traditional auction processes lack digital flexibility and real-time interaction
 |------------|------------------|--------------|
 | ![](Assets/display2.png) | ![](Assets/display3.png) | ![](Assets/display4.png) |
 
-> *(Replace image paths as per your project)*
+
 
 ---
 
